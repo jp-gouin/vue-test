@@ -26,7 +26,7 @@
     "nuxt-cookie-control": "^1.9.93",
     "vue": "^2.7.10",
     "vue-recaptcha": "^2.0.3",
-    "vue-server-renderer": "^2.7.10",
+    "vue-server-renderer": "^2.7.14",
     "vuejs-validators": "^1.1.8"
   },
   "devDependencies": {
