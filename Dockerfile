@@ -8,6 +8,6 @@ RUN npm install
 RUN npm run build && \
     npm run generate
 
-FROM nginx
+FROM nginx:1-bullseye
 COPY --from=builder /usr/app/dist /usr/share/nginx/html
 COPY --from=builder /usr/app/sitemap.xml /usr/share/nginx/html/sitemap.xml
