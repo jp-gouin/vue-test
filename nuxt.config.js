@@ -117,8 +117,16 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+    postcssOptions: {
+      plugins:{
+        tailwindcss: {},
+        autoprefixer: {},
+      },
+    },
     postcss: {
       plugins: {
+        tailwindcss: {},
+        autoprefixer: {},
         "postcss-custom-properties": false
       },
     },
