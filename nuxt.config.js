@@ -117,7 +117,7 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-    postcssOptions: {
+  /*  postcssOptions: {
       plugins:{
         tailwindcss: {},
         autoprefixer: {},
@@ -129,7 +129,7 @@ export default {
         autoprefixer: {},
         "postcss-custom-properties": false
       },
-    },
+    },*/
     extend: (config) => {
       const svgRule = config.module.rules.find(rule => rule.test.test('.svg'));
 
